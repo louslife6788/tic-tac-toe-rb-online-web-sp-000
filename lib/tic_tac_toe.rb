@@ -72,7 +72,7 @@ def over?(board)
 
 def play(board)
 win = 0
-  while win != 1
+  while win == 1
     turn(board)
     if won?(board)
       puts "Congradulation #{winner(board)}"
