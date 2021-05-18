@@ -76,10 +76,10 @@ win = 0
     turn(board)
     if won?(board)
       puts "Congradulation #{winner(board)}"
-    win +=1
+    win = 1
     elsif draw?(board)
       puts"Cat's Game"
-      win +=1
+      win = 1
     end
   end
 end
