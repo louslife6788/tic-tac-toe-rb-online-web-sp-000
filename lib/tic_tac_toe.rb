@@ -75,10 +75,8 @@ def play(board)
     turn(board)
     if won?(board)
       puts "Congradulation #{winner(board)}"
-
     elsif draw?(board)
       puts"Cat's Game"
-
     end
   end
 end
