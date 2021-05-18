@@ -71,7 +71,6 @@ def over?(board)
  end
 
 def play(board)
-
   until over?(board)
     turn(board)
     if won?(board)
