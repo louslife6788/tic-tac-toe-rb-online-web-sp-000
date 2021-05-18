@@ -71,15 +71,15 @@ def over?(board)
  end
 
 def play(board)
-end = 0
+win = 0
   until end == 1
     turn(board)
     if won?(board)
       puts "Congradulation #{winner(board)}"
-    end +=1
+    win +=1
     elsif draw?(board)
       puts"Cat's Game"
-      end +=1
+      win +=1
     end
   end
 end
