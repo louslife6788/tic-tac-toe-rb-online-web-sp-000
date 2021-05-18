@@ -77,7 +77,7 @@ def play(board)
       puts "Congradulation #{winner(board)}"
     elsif draw?(board)
       puts"Cat's Game"
-    elsif over?(board)
+    
 
 
     end
